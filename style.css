@@ -27,4 +27,9 @@ body {
 }
 .input {
     flex-direction: column;
+    height: 10vh;
+}
+input {
+    min-height: 8vh;
+    width: 8vw;
 }
