@@ -1,0 +1,18 @@
+.headercontainer {
+    background-color: #FFDF00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    font-size: 32px;
+    font-weight: 900;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
