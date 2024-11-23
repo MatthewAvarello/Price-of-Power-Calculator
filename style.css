@@ -16,3 +16,12 @@ body {
     color: green;
     font-family: Arial, Helvetica, sans-serif;
 }
+.inputcontainer {
+    margin-top: 32px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input {
+    flex-direction: column;
+}

@@ -15,6 +15,53 @@
             The following Inputs below are used to calculate the cost of power to make your life easier! :]
         </div>
     </div>
-    <input type="number">
+    <div class="inputcontainer">
+        <div class="input" id="hourscont">
+            <input type="number" value="0" max="23" id="hour">
+            <div>Hours (Max 23)</div>
+        </div>
+        <div class="input" id="minutescont">
+            <input type="number" value="0" id="minute" max="59">
+            <div>Minutes (Max 59) </div>
+        </div>
+        <div class="input" id="pricecont">
+            <input type="number" value="0" id="price">
+            <div>Price in Kwh eg. 0.09$ per Kwh</div>
+        </div>
+        <div class="input" id="wattscont">
+            <input type="number" value="0" max="" id="watts">
+            <div>Watt rating </div>
+        </div>
+        <div class="input" id="Dayscont">
+            <input type="number" value="0">
+            <div>Days</div>
+        </div>
+    </div>
+
+
+
+    <!--<script>
+         document.addEventListener('DOMContentLoaded', () => { 
+            const Inputaffected = document.getElementById('hour')
+            Inputaffected.addEventListener('input', function() {
+                const max = parseFloat(this.max)
+                const value = parseFloat(this.value)
+                if (value > max) {
+                    this.value = max;
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', () => { 
+            const Inputaffected = document.getElementById('minute')
+            Inputaffected.addEventListener('input', function() {
+                const max = parseFloat(this.max)
+                const value = parseFloat(this.value)
+                if (value > max) {
+                    this.value = max;
+                }
+            });
+        });
+    </script> -->
+
 </body>
 </html>
