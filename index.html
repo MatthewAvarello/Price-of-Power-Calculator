@@ -87,7 +87,7 @@
             const minutehours = minutenumber / 60
             const totalhours = minutehours + Hoursnumber
             const Kwh = Kw * totalhours
-            const onedayprice = totalhours * pricenumber
+            const onedayprice = Kwh * pricenumber
             const totalprice = onedayprice * daysnumber
             const output = document.getElementById('output')
             output.innerHTML = totalprice;
